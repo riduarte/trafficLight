@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.light{
+    height: 7rem;
+    width: 7rem;
+    border: solid black;   
+}
+.content{
+    background-color: black;
+    margin-top: 33px;
+    padding: 1rem;
+    width: 10rem;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+    
+} 
+.green{
+    background-color: green;   
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.brillo{  
+    background-color: grey;
+}
